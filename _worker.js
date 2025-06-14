@@ -3,12 +3,12 @@ import { connect } from "cloudflare:sockets";
 // import { Buffer } from "node:buffer";
 
 // Variables
-const rootDomain = "inoac.workers.dev"; // Ganti dengan domain utama kalian
+const rootDomain = "inoac.workers.dev/"; // Ganti dengan domain utama kalian
 const serviceName = "inoac"; // Ganti dengan nama workers kalian
-const apiKey = "8ebeb51b78cf85f3f54297eb02eb13377a0c4"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
-const apiEmail = "mhome0111@gmail.com"; // Ganti dengan email yang kalian gunakan
-const accountID = "inoac.inoac.workers.dev"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
-const zoneID = "inoac.inoac.workers.dev"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const apiKey = ""; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
+const apiEmail = ""; // Ganti dengan email yang kalian gunakan
+const accountID = ""; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const zoneID = ""; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
 let proxyIP = "";
 let cachedProxyList = [];
